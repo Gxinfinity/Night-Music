@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 LOG_GROUP_ID = -1002180298000
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = 7740867037
+OWNER_ID = 6989199420
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "BQGxYq8Ae64HCXCrB6uHk4ziBd7Xy3xfUS9jlHZ9eqBr9WjpYi-t_b7BGx2kGYBWON7jIdw6YVcqW5t4XU6LmMaBvk39Ogi6rXVKMhSx1kJ5xItxNU52-J80Cor58178SmIVby6bpfJl_iIL6I-RkxkA5UwV82TzJcGaMUEPpU52TPzRtjih0Z8zEyC5XWmJ3_refzkfy-Rz6SIxknHP3DqRZWKdsKuJpdwietOGhGWDjJ-1DX2B83oGtsfFYTecoCkMeKVw7g3bSrbGyoBPzfsNCtX8fzovKRKmmF3R3OD7LfiT3GE6bgNf3VzfDzlQLZptte2ABzFygoQRKHnM4wQhiy0G3AAAAAFD8SKbAA"
+STRING1 = "STRING_SESSION=BQGxYq8Ae64HCXCrB6uHk4ziBd7Xy3xfUS9jlHZ9eqBr9WjpYi-t_b7BGx2kGYBWON7jIdw6YVcqW5t4XU6LmMaBvk39Ogi6rXVKMhSx1kJ5xItxNU52-J8"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -77,12 +77,12 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+START_IMG_URL = "https://graph.org/file/a91c82c2e312a56d2db4e-e60a99710077dbdd38.jpg"
 
-PING_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+PING_IMG_URL = "https://graph.org/file/a91c82c2e312a56d2db4e-e60a99710077dbdd38.jpg"
 
-PLAYLIST_IMG_URL = "https://graph.org/file/763a841a2ad5cbb1e2fc5.jpg"
-STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/a91c82c2e312a56d2db4e-e60a99710077dbdd38.jpg"
+STATS_IMG_URL = "https://graph.org/file/a91c82c2e312a56d2db4e-e60a99710077dbdd38.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
