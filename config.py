@@ -16,7 +16,7 @@ BOT_TOKEN = "7667702659:AAHPIU2yQEMrbOu696qO93VaKcg92h6j5DM"
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = "mongodb+srv://bikash:bikash@bikash.3jkvhp7.mongodb.net/?retryWrites=true&w=majority"
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 999))
 
 # Chat id of a group for logging bot's activities
 LOG_GROUP_ID = -1002288846111
