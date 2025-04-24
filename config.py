@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = 27323120
-API_HASH = "8e82c0f9e36066f84ad663ab11ab0637"
+API_ID = 20985052
+API_HASH = "312f192ca95e6f9bc634bd7d9fb2056b"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "7667702659:AAHPIU2yQEMrbOu696qO93VaKcg92h6j5DM"
+BOT_TOKEN = "7527379566:AAGa0v4OVbV7sqKtrAmZMVJhCyQYFe04rN4"
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = "mongodb+srv://Avon:Avon@avon.fstai.mongodb.net/?retryWrites=true&w=majority"
@@ -19,10 +19,10 @@ MONGO_DB_URI = "mongodb+srv://Avon:Avon@avon.fstai.mongodb.net/?retryWrites=true
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 999))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = -1002288846111
+LOG_GROUP_ID = -1002643783065
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = 6289029511
+OWNER_ID = 6887657313
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/vhdjdjdb"
-SUPPORT_GROUP = "https://t.me/+POTQaufeqc44MGZl"
+SUPPORT_CHANNEL = "https://t.me/Repository_Hub"
+SUPPORT_GROUP = "https://t.me/Friends_Forever_Group_Chat"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
